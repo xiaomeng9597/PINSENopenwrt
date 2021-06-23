@@ -1,0 +1,89 @@
+CONFIG_TARGET_ath79=y
+CONFIG_TARGET_ath79_generic=y
+CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr710n-v1=y
+CONFIG_AMULE_CRYPTOPP_STATIC_LINKING=y
+CONFIG_BUILD_PATENTED=y
+# CONFIG_KERNEL_AIO is not set
+# CONFIG_KERNEL_CC_OPTIMIZE_FOR_PERFORMANCE is not set
+CONFIG_KERNEL_CC_OPTIMIZE_FOR_SIZE=y
+# CONFIG_KERNEL_CGROUPS is not set
+# CONFIG_KERNEL_DEBUG_INFO is not set
+# CONFIG_KERNEL_DEBUG_KERNEL is not set
+# CONFIG_KERNEL_DEVPTS_MULTIPLE_INSTANCES is not set
+# CONFIG_KERNEL_ELF_CORE is not set
+# CONFIG_KERNEL_FANOTIFY is not set
+# CONFIG_KERNEL_FHANDLE is not set
+# CONFIG_KERNEL_KALLSYMS is not set
+# CONFIG_KERNEL_KEYS is not set
+# CONFIG_KERNEL_NAMESPACES is not set
+# CONFIG_KERNEL_POSIX_MQUEUE is not set
+# CONFIG_KERNEL_SECCOMP is not set
+CONFIG_KERNEL_SQUASHFS_FRAGMENT_CACHE_SIZE=2
+# CONFIG_KERNEL_SWAP is not set
+CONFIG_LUCI_SRCDIET=y
+# CONFIG_OPENSSL_WITH_ERROR_MESSAGES is not set
+# CONFIG_PACKAGE_ca-bundle is not set
+# CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
+# CONFIG_PACKAGE_dnsmasq_full_dnssec is not set
+CONFIG_PACKAGE_kmod-crypto-crc32c=y
+# CONFIG_PACKAGE_kmod-crypto-user is not set
+CONFIG_PACKAGE_kmod-fast-classifier=y
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-phy-ath79-usb=y
+CONFIG_PACKAGE_kmod-sched=y
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_kmod-shortcut-fe=y
+
+
+
+
+
+CONFIG_PACKAGE_kmod-fs-ext3=y
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-ntfs=y
+CONFIG_PACKAGE_kmod-fs-vfat=y
+CONFIG_PACKAGE_kmod-fuse=y
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-nls-cp437=y
+CONFIG_PACKAGE_kmod-nls-iso8859-1=y
+CONFIG_PACKAGE_kmod-nls-utf8=y
+CONFIG_PACKAGE_kmod-scsi-core=y
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-usb-storage-extras=y
+CONFIG_PACKAGE_kmod-usb-uhci=y
+CONFIG_PACKAGE_kmod-usb2=y
+CONFIG_PACKAGE_ntfs-3g=y
+CONFIG_PACKAGE_libusb-1.0=y
+CONFIG_PACKAGE_samba36-server=y
+CONFIG_PACKAGE_hd-idle=y
+CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-vsftpd=y
+CONFIG_PACKAGE_luci-app-samba=y
+CONFIG_PACKAGE_luci-app-aria2=y
+CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-samba-zh-cn=y
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+
+
+
+
+# CONFIG_PACKAGE_kmod-usb-chipidea is not set
+# CONFIG_PACKAGE_kmod-usb-chipidea2 is not set
+# CONFIG_PACKAGE_kmod-usb-ledtrig-usbport is not set
+# CONFIG_PACKAGE_libgmp is not set
+# CONFIG_PACKAGE_libnettle is not set
+CONFIG_PACKAGE_luci-app-sfe=y
+CONFIG_PACKAGE_luci-i18n-sfe-zh-cn=y
+CONFIG_PACKAGE_luci-proto-relay=y
+# CONFIG_PACKAGE_openwrt-keyring is not set
+CONFIG_PACKAGE_relayd=y
+# CONFIG_PACKAGE_usign is not set
+CONFIG_PACKAGE_wpad-openssl=m
+CONFIG_PKG_ASLR_PIE_NONE=y
+# CONFIG_PKG_ASLR_PIE_REGULAR is not set
+# CONFIG_SIGNATURE_CHECK is not set
+# CONFIG_SIGNED_PACKAGES is not set
+# CONFIG_TARGET_ROOTFS_INITRAMFS is not set
+CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=1024
+# CONFIG_ZLIB_OPTIMIZE_SPEED is not set
